@@ -21,13 +21,14 @@ body{
 header{
 	padding: 16px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	background-color: aqua;
 	background-color: #162028;
 }
 
 .title{
+	margin-left: 80px;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 40px;
@@ -35,13 +36,21 @@ header{
 	color: #fafafa;
 }
 
+.list{
+	margin-right: 90px;
+}
+
 ul{
+	
 	list-style: none;
 	display: flex;
-	gap: 25px;
+	gap: 45px;
 }
 
 .itens{
+
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 5px;
 	color: #425564;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -173,6 +182,6 @@ article{
 footer{
 	background-color: #0b171f;
 	color: #6f8597;
-	padding: 20px;
+	padding: 25px;
 	text-align: center;
 }
